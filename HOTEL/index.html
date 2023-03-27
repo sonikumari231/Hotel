@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d67179062a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Welcome to paradise Hotel</h1>
+            <p style="margin: 10px 0px;">
+                We Provide rooms at a very good price along with great amentities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+
+        </div>
+    </section>
+    <h1 class="about-heading">About Us</h1><br>
+    <section class="about-section">
+        <div class="about-us">
+            <p>
+                Looking for a vacation to leave behind the hustle of everyday life 
+                and indulge in world-class hospitapility at exotic locations? Look no
+                further than the leading & fastert growing hotel chain of Eastern
+                India,Hotel Paradise.Your unwinding days with us will be the
+                perfect blend of leisure,comfort,convenience & class.
+            </p>
+            <br>
+            <p>
+                We are currently present at Puri,Mandarmoni to make your well 
+                deserved vacation a truly unforgettable affair.
+            </p>
+            <div class="know-more-container">
+                <button class="know-more">Know More...</button>
+            </div>
+            
+        </div>
+        <div class="ammenties">
+            <h3>Ammenties we have</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-hot"></i>Cafeteria</li>
+            </ul>
+            
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpg" alt="room-image">
+        </div>
+        
+        <div class="room-list">
+            <h4>Single Occupancy Room</h4>
+            <p>
+                A room assigned to one person.May have one or more beds.
+                A single room in a hotel is a type of accommodation that is designed
+                 for one person. 
+            </p>
+            <br>
+            <h4>Family Room</h4>
+            <p>
+                A Parlour or living room connected with to one or more bedrooms.
+                Family rooms are typically larger than standard rooms and can 
+                vary in size depending on the hotel's location, star rating, and price point.
+            </p>
+            <br>
+            <h4>Duplex Room</h4>
+            <p>
+                A duplex room in a hotel is a type of accommodation that is designed as 
+                a two-level living space within a single room.
+                  The lower level of a duplex room usually includes a 
+                  living area with a sofa, armchairs, and a coffee table, as well as 
+                  a workspace and a bathroom. The upper level typically contains a sleeping area, 
+                  which may include a double or queen-sized bed, and additional seating or storage areas.
+            </p>
+
+        </div>
+        
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form form for booking room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="text" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select...</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+    
+</body>
+</html>
